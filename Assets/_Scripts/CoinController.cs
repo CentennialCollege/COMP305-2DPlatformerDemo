@@ -18,4 +18,8 @@ public class CoinController : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
+	
+	void OnDestroy() {
+		Debug.Log("coin was destroyed");
+	}
 }
